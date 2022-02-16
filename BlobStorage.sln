@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlobStorage", "BlobStorage\BlobStorage.csproj", "{FD5862F8-D4BD-45D9-B46B-2D777A760A55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlobStorage", "BlobStorage\BlobStorage.csproj", "{FD5862F8-D4BD-45D9-B46B-2D777A760A55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextAnalytics", "TextAnalytics\TextAnalytics.csproj", "{544D9340-AF3B-4C7F-AC2E-57BCB367A469}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextAnalytics", "TextAnalytics\TextAnalytics.csproj", "{544D9340-AF3B-4C7F-AC2E-57BCB367A469}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProposedSolution", "ProposedSolution\ProposedSolution.csproj", "{281DBFC0-DCB7-4FEE-9794-9B4F42AF1AFA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{544D9340-AF3B-4C7F-AC2E-57BCB367A469}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{544D9340-AF3B-4C7F-AC2E-57BCB367A469}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{544D9340-AF3B-4C7F-AC2E-57BCB367A469}.Release|Any CPU.Build.0 = Release|Any CPU
+		{281DBFC0-DCB7-4FEE-9794-9B4F42AF1AFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{281DBFC0-DCB7-4FEE-9794-9B4F42AF1AFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{281DBFC0-DCB7-4FEE-9794-9B4F42AF1AFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{281DBFC0-DCB7-4FEE-9794-9B4F42AF1AFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

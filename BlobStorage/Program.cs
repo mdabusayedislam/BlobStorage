@@ -10,7 +10,7 @@ namespace BlobStorage
     {
         static async Task Main(string[] args)
         {
-            
+            //Azure Storage account
             string connectionString = "Get Value from Access keys --Show keys-- Connection string";
             Console.WriteLine("Blob Storage Demo");
             ////Create

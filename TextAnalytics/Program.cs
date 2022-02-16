@@ -6,6 +6,7 @@ namespace TextAnalytics
 {
     class Program
     {
+        //Azure Cognitive services
         private static readonly AzureKeyCredential credentials = new AzureKeyCredential("Put Key 1 Value");
         private static readonly Uri endpoint = new Uri("Put End Point Value");
         private static readonly TextAnalyticsClient client =new TextAnalyticsClient(endpoint, credentials);
